@@ -50,16 +50,41 @@
 	  </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/home_photo.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
           	<h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Learn to invest the right way.</h2>
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-            	<span>Experience</span>. <span>Learn</span>. <span>Perfect</span>.
+            	<span>Play</span>. <span>Practice</span>. <span>Perfect</span>.
             </h1>
-            <p><a href="#" class="btn btn-primary py-3 px-4">Join the Game</a></p>
+            <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary py-3 px-4">Join the Game</button>
+			<div id="id01" class="modal">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+			<form class="modal-content" action="/action_page.php">
+				<div class="container1">
+					<h1>Register</h1>
+					<hr>
+			
+					<label for="email"><b>Email</b></label>
+					<input type="text" placeholder="Enter Email" name="email" required>
+			
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+			
+					<label for="psw-repeat"><b>Re-enter Password</b></label>
+					<input type="password" placeholder="Re-enter Password" name="psw-repeat" required>
+			
+					<label>
+						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">Remember me
+					</label>
+			
+					<div class="clearfix">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						<button type="submit" class="signupbtn">Sign Up</button>
+					</div>
+				</form>
           </div>
         </div>
       </div>
@@ -72,35 +97,35 @@
             <div class="icon"><span class="flaticon-auction"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Invest in Securities</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p>SE Stock League supports investing in stocks, ETFs, and mutual funds.</p>
             </div>
           </div>
           <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-lawyer"></span></div>
             <div class="media-body">
-              <h3 class="heading mb-3"><a href="#">Participate in Leagues</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <h3 class="heading mb-3"><a href="leagues.html">Participate in Leagues</a></h3>
+              <p>Choose from a multitude of available leagues to join others on a journey to becoming a better investor.</p>
             </div>
           </div>
           <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-money"></span></div>
             <div class="media-body">
-              <h3 class="heading mb-3"><a href="#">Analyze your Portfolio</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <h3 class="heading mb-3"><a href="profile.html">Analyze your Portfolio</a></h3>
+              <p>View the securities that you are currently invested in and stay up date to date on their performance.</p>
             </div>
           </div>
             <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="ion-ios-help-circle-outline"></span></div>
             <div class="media-body">
-              <h3 class="heading mb-3"><a href="#">Investing Tutorial</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <h3 class="heading mb-3"><a href="tutorial.html">Investing Tutorial</a></h3>
+              <p>Complete the tutorial to learn about the workings of both SE Stock League and investing.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
    	
-    <section class="ftco-counter" id="section-counter">
+    <!-- <section class="ftco-counter" id="section-counter">
     	<div class="container-fluid">
     		<div class="row d-flex">
     			<div class="col-md-6 d-flex">
@@ -281,7 +306,7 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
+	                <!-- back content 
 	                <blockquote>
 	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
@@ -305,7 +330,7 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
+	                <!-- back content 
 	                <blockquote>
 	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
@@ -329,7 +354,7 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
+	                <!-- back content
 	                <blockquote>
 	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
@@ -353,7 +378,7 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
+	                <!-- back content 
 	                <blockquote>
 	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
@@ -620,14 +645,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Whisper</h2>
+              <h2 class="ftco-heading-2">SE Stock League</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
